@@ -1,5 +1,4 @@
 import { Spacer } from "@nextui-org/react";
-import { wait } from "next/dist/lib/wait";
 
 import { title } from "@/components/primitives";
 import BirthdayTable from "@/components/birthday-table";
@@ -18,8 +17,6 @@ async function getData() {
 
 export default async function BirthdayPage() {
   const birthdays = await getData();
-
-  await wait(5000);
 
   return (
     <div className="w-full">

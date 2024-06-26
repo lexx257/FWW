@@ -9,16 +9,12 @@ export const siteConfig = {
       href: "/",
     },
     {
-      label: "Docs",
-      href: "/docs",
+      label: "Admin Panel",
+      href: "/admin",
     },
     {
-      label: "Pricing",
-      href: "/pricing",
-    },
-    {
-      label: "Übungen",
-      href: "/practices",
+      label: "Übungsdienste",
+      href: "/exercises",
     },
     {
       label: "Geburstagskalender",
